@@ -43,31 +43,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.webjars/webjars-locator -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator</artifactId>
 		</dependency>
-		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.webjars/bootstrap &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.webjars</groupId>-->
-			<!--<artifactId>bootstrap</artifactId>-->
-		<!--</dependency>-->
-		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.webjars.bower/jquery &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.webjars.bower</groupId>-->
-			<!--<artifactId>jquery</artifactId>-->
-		<!--</dependency>-->
-		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.webjars.bower/fontawesome &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.webjars.bower</groupId>-->
-			<!--<artifactId>fontawesome</artifactId>-->
-		<!--</dependency>-->
 
 	</dependencies>
 
