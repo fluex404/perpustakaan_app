@@ -55,28 +55,28 @@
             <img class="img-thumbnail" th:alt="${profile.name}" th:src="${'data:image;base64,'+profile.photo}" width="200" height="200" />
             <form th:action="@{/api/profile}">
                 <input type="text" class="form-control" id="profile-id" hidden="hidden" th:value="${profile.id}">
-                <div class="form-group">
-                    <label for="profile-name">Nama Lengkap:</label>
-                    <input type="text" class="form-control" id="profile-name" th:value="${profile.name}">
+                <div class="form-group" id="profile-name">
+                    <label>Nama Lengkap:</label>
+                    <input type="text" class="form-control" th:value="${profile.name}">
                 </div>
-                <div class="form-group">
-                    <label for="profile-email">Email:</label>
-                    <input type="text" class="form-control" id="profile-email" th:value="${profile.email}">
+                <div class="form-group" id="profile-email">
+                    <label>Email:</label>
+                    <input type="text" class="form-control" th:value="${profile.email}">
                 </div>
-                <div class="form-group">
-                    <label for="profile-username">Username:</label>
-                    <input type="text" class="form-control" id="profile-username" th:value="${profile.username}">
+                <div class="form-group" id="profile-username">
+                    <label >Username:</label>
+                    <input type="text" class="form-control" th:value="${profile.username}">
                 </div>
-                <div class="form-group">
-                    <label for="profile-password">Password:</label>
-                    <input type="password" class="form-control" id="profile-password" th:value="${profile.password}">
+                <div class="form-group" id="profile-password">
+                    <label>Password:</label>
+                    <input type="password" class="form-control float-left" th:value="${profile.password}">
                 </div>
-                <div class="form-group">
-                    <label for="profile-photo">Photo:</label>
-                    <input type="file" class="form-control" id="profile-photo" th:value="${profile.photo}">
+                <div class="form-group" id="profile-photo">
+                    <label>Photo:</label>
+                    <input type="file" class="form-control" th:value="${profile.photo}">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="profile-submit">Submit</button>
             </form>
 
 

@@ -36,5 +36,21 @@ jQuery(document).ready(function($) {
 
     // This's my code
 
+	/* Profile */
+	$('#profile-submit').click(function(e){
+		e.preventDefault();
+
+		var updateProfile = {
+			id: $('#profile-id').val(),
+			name: $('#profile-name input').val(),
+			email: $('#profile-email input').val(),
+			username: $('#profile-username input').val(),
+			password: $('#profile-password input').val(),
+			photo: $('#profile-photo input').val()
+		};
+
+		console.log(updateProfile);
+	});
+
     // Close my code
 });
