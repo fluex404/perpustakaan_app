@@ -27,7 +27,7 @@ public class SettingRestController {
         } else {
             st = dao.save(setting);
         }
-        
+
         return new ResponseEntity<>(st, HttpStatus.OK);
     }
 }
