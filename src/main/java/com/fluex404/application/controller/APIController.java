@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin
 public class APIController {
     @Autowired
     private ProfileDao dao;
@@ -21,7 +22,7 @@ public class APIController {
         return new ResponseEntity<>(dao.findAll(), HttpStatus.OK);
     }
     @PostMapping("/profile")
-    public ResponseEntity<Profile> postProfile(@Valid Profile profile) {
+    public ResponseEntity<Profile> postProfile(@RequestBody @Valid Profile profile) {
         return new ResponseEntity<>(dao.save(profile), HttpStatus.CREATED);
     }
 }

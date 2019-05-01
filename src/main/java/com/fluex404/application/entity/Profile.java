@@ -13,7 +13,7 @@ import java.util.UUID;
 public class Profile {
     @Id
     private UUID id;
-    @NotBlank
+    @NotBlank(message = "name must not be blank")
     private String name;
     @Email(message = "email invalid")
     private String email;
