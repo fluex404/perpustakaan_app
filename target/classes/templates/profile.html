@@ -6,28 +6,8 @@
 <html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org">
 <!--<![endif]-->
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head th:replace="fragments/common_header :: common_header(~{::title})">
     <title>Sufee Admin - HTML5 Admin Template</title>
-    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <link rel="stylesheet" th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}">
-    <link rel="stylesheet" th:href="@{/vendors/font-awesome/css/font-awesome.min.css}">
-    <link rel="stylesheet" th:href="@{/vendors/themify-icons/css/themify-icons.css}">
-    <link rel="stylesheet" th:href="@{/vendors/flag-icon-css/css/flag-icon.min.css}">
-    <link rel="stylesheet" th:href="@{/vendors/selectFX/css/cs-skin-elastic.css}">
-    <link rel="stylesheet" th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}">
-
-
-    <link rel="stylesheet" th:href="@{/assets/css/style.css}">
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-
 </head>
 
 <body>
@@ -72,6 +52,32 @@
 
         <div class="container">
 
+            <img class="img-thumbnail" th:alt="${profile.name}" th:src="${'data:image;base64,'+profile.photo}" width="200" height="200" />
+            <form th:action="@{/api/profile}">
+                <input type="text" class="form-control" id="profile-id" hidden="hidden" th:value="${profile.id}">
+                <div class="form-group">
+                    <label for="profile-name">Nama Lengkap:</label>
+                    <input type="text" class="form-control" id="profile-name" th:value="${profile.name}">
+                </div>
+                <div class="form-group">
+                    <label for="profile-email">Email:</label>
+                    <input type="text" class="form-control" id="profile-email" th:value="${profile.email}">
+                </div>
+                <div class="form-group">
+                    <label for="profile-username">Username:</label>
+                    <input type="text" class="form-control" id="profile-username" th:value="${profile.username}">
+                </div>
+                <div class="form-group">
+                    <label for="profile-password">Password:</label>
+                    <input type="password" class="form-control" id="profile-password" th:value="${profile.password}">
+                </div>
+                <div class="form-group">
+                    <label for="profile-photo">Photo:</label>
+                    <input type="file" class="form-control" id="profile-photo" th:value="${profile.photo}">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
 
         </div>

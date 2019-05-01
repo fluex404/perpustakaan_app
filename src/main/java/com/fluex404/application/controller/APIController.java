@@ -23,6 +23,8 @@ public class APIController {
     }
     @PostMapping("/profile")
     public ResponseEntity<Profile> postProfile(@RequestBody @Valid Profile profile) {
+        System.out.println(profile);
+
         return new ResponseEntity<>(dao.save(profile), HttpStatus.CREATED);
     }
 }
