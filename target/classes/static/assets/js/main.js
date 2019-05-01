@@ -34,4 +34,7 @@ jQuery(document).ready(function($) {
 	// 	$('.user-menu').parent().toggleClass('open');
 	// });
 
+    // This's my code
+
+    // Close my code
 });
