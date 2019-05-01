@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
 
 		var updateProfile = {
 			id: $('#profile-id').val(),
-			name: $('#profile-name input').val(),
+			nama: $('#profile-nama input').val(),
 			email: $('#profile-email input').val(),
 			username: $('#profile-username input').val(),
 			password: $('#profile-password input').val(),
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 
 					// update data Profile
 					$('#profile-img').attr('src', data.photo);
-					$('#profile-name input').val(data.name);
+					$('#profile-nama input').val(data.nama);
 					$('#profile-email input').val(data.email);
 					$('#profile-username').val(data.username);
 					$('#profile-password').val(data.password);

@@ -8,21 +8,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/admin")
-public class PerpustakaanController {
+@RequestMapping("/admin/profile")
+public class ProfileController {
     @Autowired
     private ProfileDao dao;
 
     @GetMapping
-    public String createIndex(Model model) {
-        Profile profile = dao.findAll().get(0);
-
-        model.addAttribute("profile", profile);
-
-        return "index";
-    }
-
-    @GetMapping("/profile")
     public String getProfile(Model model) {
         Profile profile = dao.findAll().get(0);
 

@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b2cf9b8-23e5-4fdb-ba83-421e7d2f1331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/SettingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Setting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/common_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/common_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-panel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/PerpustakaanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/PerpustakaanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/PerpustakaanController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/common_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/common_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
     </list>
@@ -33,31 +33,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="59" selection-end-column="23" />
+            <state relative-caret-position="-435">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
-                <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="214">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,19 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="169">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,14 +122,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/APIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/db/DatabaseInput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/common_header.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/left-panel.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Setting.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/SettingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" />
       </list>
     </option>
   </component>
@@ -168,7 +174,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +298,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +309,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556700025492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556750463664" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -354,17 +360,19 @@
       <updated>1556606938425</updated>
       <workItem from="1556606942728" duration="12914000" />
       <workItem from="1556622751249" duration="2102000" />
-      <workItem from="1556679093297" duration="19848000" />
+      <workItem from="1556679093297" duration="22748000" />
+      <workItem from="1556749796517" duration="650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34864000" />
+    <option name="totallyTimeSpent" value="38414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="737" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22348484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22727273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -374,16 +382,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18760195" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26590538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5586354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952693" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -413,50 +421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/my.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/service/ProfileService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2282#2283#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-            <element signature="e#2615#2616#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2851#2852#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#2958#2959#0" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -478,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/APIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/db/DatabaseInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -498,54 +453,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/common_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/left-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/left-panel.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -553,22 +462,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo2.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/avatar/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="1305">
+          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="235">
+          <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/SettingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

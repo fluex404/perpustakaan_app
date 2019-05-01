@@ -13,8 +13,8 @@ import java.util.UUID;
 public class Profile {
     @Id
     private UUID id;
-    @NotBlank(message = "name must not be blank")
-    private String name;
+    @NotBlank(message = "nama tidak boleh kosong")
+    private String nama;
     @Email(message = "email invalid")
     private String email;
     private String username;
@@ -26,19 +26,19 @@ public class Profile {
     public Profile() {
         this.id = UUID.randomUUID();
     }
-    public Profile(String name, String email, String username, String password, String photo) {
+    public Profile(String nama, String email, String username, String password, String photo) {
         this();
         this.date = new Date();
-        this.name = name;
+        this.nama = nama;
         this.email = email;
         this.username = username;
         this.password = password;
         this.photo = photo;
     }
-    public Profile(UUID id, String name, String email, String username, String password, String photo) {
+    public Profile(UUID id, String nama, String email, String username, String password, String photo) {
         this.id = id;
         this.date = new Date();
-        this.name = name;
+        this.nama = nama;
         this.email = email;
         this.username = username;
         this.password = password;

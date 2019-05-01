@@ -11,17 +11,17 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/profile")
 @CrossOrigin
-public class APIController {
+public class ProfileRestController {
     @Autowired
     private ProfileDao dao;
 
-    @GetMapping("/profile")
+    @GetMapping
     public ResponseEntity<List<Profile>> getProfile() {
         return new ResponseEntity<>(dao.findAll(), HttpStatus.OK);
     }
-    @PostMapping("/profile")
+    @PostMapping
     public ResponseEntity<Profile> postProfile(@RequestBody @Valid Profile profile) {
         return new ResponseEntity<>(dao.save(profile), HttpStatus.CREATED);
     }
