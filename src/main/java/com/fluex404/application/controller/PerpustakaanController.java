@@ -14,15 +14,19 @@ public class PerpustakaanController {
     private ProfileDao dao;
 
     @GetMapping
-    public String createIndex() {
+    public String createIndex(Model model) {
+        Profile profile = dao.findAll().get(0);
+
+        model.addAttribute("profile", profile);
+
         return "index";
     }
 
     @GetMapping("/profile")
-    public String getProfile(Model modal) {
+    public String getProfile(Model model) {
         Profile profile = dao.findAll().get(0);
 
-        modal.addAttribute("profile", profile);
+        model.addAttribute("profile", profile);
 
         return "profile";
     }

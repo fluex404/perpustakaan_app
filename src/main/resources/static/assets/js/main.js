@@ -44,7 +44,6 @@ jQuery(document).ready(function($) {
 	var message;
 
 	/* upload image take the base64 code */
-
 	function convertFileToBase64(input) {
 		if(input.files && input.files[0]) {
 			var reader = new FileReader();
@@ -56,9 +55,8 @@ jQuery(document).ready(function($) {
 		}
 	}
 
-	/* upload image take the base64 code closed */
-
 	/* Profile */
+
 	$('#profile-photo input').change(function(e){
 		convertFileToBase64(this);
 	});
