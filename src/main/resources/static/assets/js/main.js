@@ -83,14 +83,19 @@ jQuery(document).ready(function($) {
 			contentType: 'application/json',
 			success: function (data) {
 				if(data) {
-					$('.msg').show();
+					if(data.status) {
+						alert('status error')
+					} else {
 
-					// update data Profile
-					$('#profile-img').attr('src', data.photo);
-					$('#profile-nama input').val(data.nama);
-					$('#profile-email input').val(data.email);
-					$('#profile-username').val(data.username);
-					$('#profile-password').val(data.password);
+						$('.msg').show();
+
+						// update data Profile
+						$('#profile-img').attr('src', data.photo);
+						$('#profile-nama input').val(data.nama);
+						$('#profile-email input').val(data.email);
+						$('#profile-username').val(data.username);
+						$('#profile-password').val(data.password);
+					}
 				}
 			},
 			data: JSON.stringify(updateProfile)

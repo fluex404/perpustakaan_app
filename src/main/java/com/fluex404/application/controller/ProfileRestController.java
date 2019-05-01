@@ -31,6 +31,9 @@ public class ProfileRestController {
 
         if(result.hasErrors()) {
             Map<String, String> errorMap = new HashMap<>();
+
+            errorMap.put("status", "error");
+
             result.getFieldErrors()
                     .forEach(err -> {
                         errorMap.put(err.getField(), err.getDefaultMessage());
