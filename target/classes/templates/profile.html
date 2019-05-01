@@ -41,9 +41,9 @@
 
     <div class="content mt-3">
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 msg">
             <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
+                <span class="badge badge-pill badge-success">Success</span> Your profile updated.!
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -52,8 +52,8 @@
 
         <div class="container">
 
-            <img class="img-thumbnail" th:alt="${profile.name}" th:src="${'data:image;base64,'+profile.photo}" width="200" height="200" />
-            <form th:action="@{/api/profile}">
+            <img class="img-thumbnail" th:alt="${profile.name}" th:src="${profile.photo}" width="200" height="200" id="profile-img" />
+            <form th:action="@{/api/profile}" id="profile-form">
                 <input type="text" class="form-control" id="profile-id" hidden="hidden" th:value="${profile.id}">
                 <div class="form-group" id="profile-name">
                     <label>Nama Lengkap:</label>

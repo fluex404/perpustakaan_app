@@ -19,16 +19,25 @@ public class Profile {
     private String email;
     private String username;
     private String password;
-    @Column(length = 100000)
+    @Column(length = 1000000)
     private String photo;
     private Date date;
 
     public Profile() {
         this.id = UUID.randomUUID();
-        this.date = new Date();
     }
     public Profile(String name, String email, String username, String password, String photo) {
         this();
+        this.date = new Date();
+        this.name = name;
+        this.email = email;
+        this.username = username;
+        this.password = password;
+        this.photo = photo;
+    }
+    public Profile(UUID id, String name, String email, String username, String password, String photo) {
+        this.id = id;
+        this.date = new Date();
         this.name = name;
         this.email = email;
         this.username = username;

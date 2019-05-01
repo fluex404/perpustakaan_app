@@ -36,13 +36,20 @@ jQuery(document).ready(function($) {
 
     // This's my code
 
-	/* upload image take the base64 code */
+	/* first reload */
+	$('.msg').hide();
+
+	/* My Global variable */
 	var file_upload_base64;
+	var message;
+
+	/* upload image take the base64 code */
 
 	function convertFileToBase64(input) {
 		if(input.files && input.files[0]) {
 			var reader = new FileReader();
 			reader.onload = function(e) {
+				// console.log(e.target.result);
 				file_upload_base64 = e.target.result;
 			};
 			reader.readAsDataURL(input.files[0]);
@@ -67,9 +74,30 @@ jQuery(document).ready(function($) {
 			password: $('#profile-password input').val(),
 			photo: file_upload_base64
 		};
+		var url = $('#profile-form').attr('action');
 
+		// console.log(updateProfile);
 
-		console.log(updateProfile);
+		$.ajax({
+			url: url,
+			type: 'post',
+			dataType: 'json',
+			contentType: 'application/json',
+			success: function (data) {
+				if(data) {
+					$('.msg').show();
+
+					// update data Profile
+					$('#profile-img').attr('src', data.photo);
+					$('#profile-name input').val(data.name);
+					$('#profile-email input').val(data.email);
+					$('#profile-username').val(data.username);
+					$('#profile-password').val(data.password);
+				}
+			},
+			data: JSON.stringify(updateProfile)
+		});
+
 	});
 
     // Close my code
