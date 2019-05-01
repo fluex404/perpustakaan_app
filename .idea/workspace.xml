@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b2cf9b8-23e5-4fdb-ba83-421e7d2f1331" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/SettingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/PerpustakaanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/PerpustakaanController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,35 +23,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="295">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,9 +107,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java" />
       </list>
     </option>
   </component>
@@ -309,7 +283,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556750463664" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556751169615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,12 +335,12 @@
       <workItem from="1556606942728" duration="12914000" />
       <workItem from="1556622751249" duration="2102000" />
       <workItem from="1556679093297" duration="22748000" />
-      <workItem from="1556749796517" duration="650000" />
+      <workItem from="1556749796517" duration="1197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38414000" />
+    <option name="totallyTimeSpent" value="38961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="737" extended-state="6" />
@@ -532,18 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -553,9 +517,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/ProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SettingRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
           </folding>
         </state>
       </provider>

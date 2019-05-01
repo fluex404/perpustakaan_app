@@ -23,6 +23,13 @@ public class ProfileRestController {
     }
     @PostMapping
     public ResponseEntity<Profile> postProfile(@RequestBody @Valid Profile profile) {
-        return new ResponseEntity<>(dao.save(profile), HttpStatus.CREATED);
+        Profile pr = new Profile();
+        if(profile.getId().equals("") || profile.getId() == null) {
+            //
+        } else {
+            pr = dao.save(profile);
+        }
+
+        return new ResponseEntity<>(pr, HttpStatus.CREATED);
     }
 }
