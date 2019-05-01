@@ -36,7 +36,26 @@ jQuery(document).ready(function($) {
 
     // This's my code
 
+	/* upload image take the base64 code */
+	var file_upload_base64;
+
+	function convertFileToBase64(input) {
+		if(input.files && input.files[0]) {
+			var reader = new FileReader();
+			reader.onload = function(e) {
+				file_upload_base64 = e.target.result;
+			};
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+	/* upload image take the base64 code closed */
+
 	/* Profile */
+	$('#profile-photo input').change(function(e){
+		convertFileToBase64(this);
+	});
+
 	$('#profile-submit').click(function(e){
 		e.preventDefault();
 
@@ -46,8 +65,9 @@ jQuery(document).ready(function($) {
 			email: $('#profile-email input').val(),
 			username: $('#profile-username input').val(),
 			password: $('#profile-password input').val(),
-			photo: $('#profile-photo input').val()
+			photo: file_upload_base64
 		};
+
 
 		console.log(updateProfile);
 	});
