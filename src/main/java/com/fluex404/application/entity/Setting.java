@@ -13,13 +13,14 @@ public class Setting {
     @Id
     private UUID id;
     private String nama_sekolah;
-    @Column(length = 1000000)
+    @Column(length = 10000000)
     private String logo;
 
     public Setting() {
         this.id = UUID.randomUUID();
     }
     public Setting(String nama_sekolah, String logo){
+        this();
         this.nama_sekolah = nama_sekolah;
         this.logo = logo;
     }

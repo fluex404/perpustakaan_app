@@ -45,6 +45,7 @@ jQuery(document).ready(function($) {
 	/* my function */
 	function firstLoadData() {
 		profileLoad();
+		settingLoad();
 	}
 	function convertFileToBase64(input) {
 		if(input.files && input.files[0]) {
@@ -57,8 +58,20 @@ jQuery(document).ready(function($) {
 		}
 	}
 
-	/* Profile */
+	/* Setting */
+	function settingLoad() {
+		$.ajax({
+			url: '/api/setting',
+			type: 'get',
+			dataType: 'json',
+			success: function (data) {
+				$('#setting img').attr('src', data.logo);
+				$('#setting h4').text(data.nama_sekolah);
+			}
+		});
+	}
 
+	/* Profile */
 	function profileLoad() {
 		/* action before run */
 		$('#profile-email div').hide();
@@ -66,13 +79,29 @@ jQuery(document).ready(function($) {
 		$('.msg').hide();
 
 		/* get data of server into global variable */
-		$.get('/api/profile', function(data){
-			$('#profile-img').attr('src', data.photo);
-			$('#profile-id').val(data.id);
-			$('#profile-nama input').val(data.nama);
-			$('#profile-email input').val(data.email);
-			$('#profile-username input').val(data.username);
-			$('#profile-password input').val(data.password);
+		// $.get('/api/profile', function(data){
+		// 	$('#profile-img').attr('src', data.photo);
+		// 	$('#profile-id').val(data.id);
+		// 	$('#profile-nama input').val(data.nama);
+		// 	$('#profile-email input').val(data.email);
+		// 	$('#profile-username input').val(data.username);
+		// 	$('#profile-password input').val(data.password);
+		// });
+
+		$.ajax({
+			url: '/api/profile',
+			type: 'get',
+			dataType: 'json',
+			success: function (data) {
+					$('#profile-img').attr('src', data.photo);
+					$('#profile-id').val(data.id);
+					$('#profile-nama input').val(data.nama);
+					$('#profile-email input').val(data.email);
+					$('#profile-username input').val(data.username);
+					$('#profile-password input').val(data.password);
+
+					$('.user-avatar').attr('src', data.photo);
+			}
 		});
 	}
 
