@@ -22,8 +22,8 @@ public class ProfileRestController {
     private ProfileDao dao;
 
     @GetMapping
-    public ResponseEntity<List<Profile>> getProfile() {
-        return new ResponseEntity<>(dao.findAll(), HttpStatus.OK);
+    public ResponseEntity<Profile> getProfile() {
+        return new ResponseEntity<>(dao.findAll().get(0), HttpStatus.OK);
     }
     @PostMapping
     public ResponseEntity<?> postProfile(@RequestBody @Valid Profile profile, BindingResult result) {

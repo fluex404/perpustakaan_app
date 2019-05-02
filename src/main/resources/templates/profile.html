@@ -52,25 +52,27 @@
 
         <div class="container">
 
-            <img th:src="${profile.photo}" width="100" height="100" th:alt="${profile.nama}" class="img-thumbnail"
+            <img  width="100" height="100"  class="img-thumbnail"
                  id="profile-img"/>
             <form th:action="@{/api/profile}" id="profile-form">
-                <input type="text" class="form-control" id="profile-id" hidden="hidden" th:value="${profile.id}">
+                <input type="text" class="form-control " id="profile-id" hidden="hidden" >
                 <div class="form-group" id="profile-nama">
                     <label>Nama Lengkap:</label>
-                    <input type="text" class="form-control" th:value="${profile.nama}">
+                    <input type="text" class="form-control" >
+                    <div class="invalid-feedback text-danger"></div>
                 </div>
                 <div class="form-group" id="profile-email">
                     <label>Email:</label>
-                    <input type="text" class="form-control" th:value="${profile.email}">
+                    <input type="text" class="form-control" >
+                    <div class="invalid-feedback text-danger"></div>
                 </div>
                 <div class="form-group" id="profile-username">
                     <label>Username:</label>
-                    <input type="text" class="form-control" th:value="${profile.username}">
+                    <input type="text" class="form-control" >
                 </div>
                 <div class="form-group" id="profile-password">
                     <label>Password:</label>
-                    <input type="password" class="form-control float-left" th:value="${profile.password}">
+                    <input type="password" class="form-control float-left" >
                 </div>
                 <div class="form-group" id="profile-photo">
                     <label>Photo:</label>

@@ -37,13 +37,15 @@ jQuery(document).ready(function($) {
     // This's my code
 
 	/* first reload */
-	$('.msg').hide();
+	firstLoadData();
 
 	/* My Global variable */
 	var file_upload_base64;
-	var message;
 
-	/* upload image take the base64 code */
+	/* my function */
+	function firstLoadData() {
+		profileLoad();
+	}
 	function convertFileToBase64(input) {
 		if(input.files && input.files[0]) {
 			var reader = new FileReader();
@@ -56,6 +58,23 @@ jQuery(document).ready(function($) {
 	}
 
 	/* Profile */
+
+	function profileLoad() {
+		/* action before run */
+		$('#profile-email div').hide();
+		$('#profile-nama div').hide();
+		$('.msg').hide();
+
+		/* get data of server into global variable */
+		$.get('/api/profile', function(data){
+			$('#profile-img').attr('src', data.photo);
+			$('#profile-id').val(data.id);
+			$('#profile-nama input').val(data.nama);
+			$('#profile-email input').val(data.email);
+			$('#profile-username input').val(data.username);
+			$('#profile-password input').val(data.password);
+		});
+	}
 
 	$('#profile-photo input').change(function(e){
 		convertFileToBase64(this);
@@ -83,11 +102,22 @@ jQuery(document).ready(function($) {
 			contentType: 'application/json',
 			success: function (data) {
 				if(data) {
-					if(data.status) {
-						alert('status error')
-					} else {
+					if(data.status === "error" ) {
 
+						if(typeof data.nama !== 'undefined'){
+							$('#profile-nama input').addClass("is-invalid");
+							$('#profile-nama div').text(data.nama).show();
+						}
+
+						if(typeof data.email !== 'undefined') {
+							$('#profile-email input').addClass('is-invalid');
+							$('#profile-email div').text(data.email).show();
+						}
+					}
+					else {
 						$('.msg').show();
+						$('#profile-nama input').removeClass("is-invalid");
+						$('#profile-email input').removeClass('is-invalid');
 
 						// update data Profile
 						$('#profile-img').attr('src', data.photo);

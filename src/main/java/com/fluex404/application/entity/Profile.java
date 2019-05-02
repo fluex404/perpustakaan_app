@@ -13,9 +13,9 @@ import java.util.UUID;
 public class Profile {
     @Id
     private UUID id;
-    @NotBlank(message = "nama tidak boleh kosong")
+    @NotBlank(message = "nama tidak boleh kosong!")
     private String nama;
-    @Email(message = "email invalid")
+    @Email(message = "email tidak sah!")
     private String email;
     private String username;
     private String password;
