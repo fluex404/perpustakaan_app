@@ -59,14 +59,42 @@ jQuery(document).ready(function($) {
 	}
 
 	/* Setting */
+	$('#setting-logo input').change(function(e){
+		convertFileToBase64(this);
+	});
+
+	$('#setting-submit').click(function(e){
+		e.preventDefault();
+
+		var updateSetting = {
+			id: $('#setting-id').val(),
+			nama_sekolah: $('#setting-nama-sekolah input').val(),
+			logo: file_upload_base64
+		};
+
+		$.ajax({
+			url: '/api/setting',
+			type: 'post',
+			dataType: 'json',
+			contentType: 'application/json',
+			success: function(data){
+				$('#setting-img').attr('src', data.logo);
+			},
+			data: JSON.stringify(updateSetting)
+		});
+
+	});
 	function settingLoad() {
 		$.ajax({
 			url: '/api/setting',
 			type: 'get',
 			dataType: 'json',
-			success: function (data) {
+			success: function (data) {;
 				$('#setting img').attr('src', data.logo);
 				$('#setting h4').text(data.nama_sekolah);
+				$('#setting-img').attr('src', data.logo);
+				$('#setting-nama-sekolah input').val(data.nama_sekolah);
+				$('#setting-id').val(data.id);
 			}
 		});
 	}
@@ -120,12 +148,11 @@ jQuery(document).ready(function($) {
 			password: $('#profile-password input').val(),
 			photo: file_upload_base64
 		};
-		var url = $('#profile-form').attr('action');
 
 		// console.log(updateProfile);
 
 		$.ajax({
-			url: url,
+			url: '/api/profile',
 			type: 'post',
 			dataType: 'json',
 			contentType: 'application/json',

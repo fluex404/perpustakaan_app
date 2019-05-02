@@ -13,7 +13,7 @@ public class Setting {
     @Id
     private UUID id;
     private String nama_sekolah;
-    @Column(length = 10000000)
+    @Column(length = 1000000)
     private String logo;
 
     public Setting() {

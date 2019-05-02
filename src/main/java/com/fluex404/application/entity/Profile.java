@@ -19,7 +19,7 @@ public class Profile {
     private String email;
     private String username;
     private String password;
-    @Column(length = 10000000)
+    @Column(length = 1000000)
     private String photo;
     private Date date;
 
