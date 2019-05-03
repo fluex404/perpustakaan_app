@@ -41,7 +41,7 @@
 
     <div class="content mt-3">
 
-        <div class="col-sm-12">
+        <div class="col-sm-12" id="siswa-msg">
             <div class="alert  alert-success alert-dismissible fade show" role="alert">
                 <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -52,7 +52,15 @@
 
         <div class="container">
 
+            <button class="btn btn-success"><span class="fa fa-download"></span> Import</button>
+            <button class="btn btn-info"><span class="fa fa-upload"></span> Export</button>
 
+            <input type="text" id="siswa-id" hidden="hidden">
+            <div class="form-group" id="siswa-nama">
+                <label>Nama: </label>
+                <input type="text" class="form-control">
+            </div>
+            <input type="submit" class="btn btn-primary" id="siswa-submit">
 
         </div>
 

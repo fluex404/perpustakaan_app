@@ -46,6 +46,7 @@ jQuery(document).ready(function ($) {
     function firstLoadData() {
         profileLoad();
         settingLoad();
+        loadSiswa();
     }
 
     function convertFileToBase64(input) {
@@ -57,6 +58,15 @@ jQuery(document).ready(function ($) {
             };
             reader.readAsDataURL(input.files[0]);
         }
+    }
+
+    /* Siswa */
+    $('#siswa-submit').click(function(e){
+        e.preventDefault();
+        console.log('siswa-submit : it works!');
+    });
+    function loadSiswa() {
+        $('#siswa-msg').hide();
     }
 
     /* Setting */
