@@ -79,6 +79,8 @@ jQuery(document).ready(function($) {
 			contentType: 'application/json',
 			success: function(data){
 				$('#setting-img').attr('src', data.logo);
+				$('#setting img').attr('src', data.logo);
+				$('#setting h4').text(data.nama_sekolah);
 			},
 			data: JSON.stringify(updateSetting)
 		});
@@ -181,6 +183,8 @@ jQuery(document).ready(function($) {
 						$('#profile-email input').val(data.email);
 						$('#profile-username').val(data.username);
 						$('#profile-password').val(data.password);
+
+						$('.user-avatar').attr('src', data.photo);
 					}
 				}
 			},
