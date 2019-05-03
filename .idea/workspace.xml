@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b2cf9b8-23e5-4fdb-ba83-421e7d2f1331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/siswa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/siswa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/siswa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/siswa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/ProfileRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/SettingRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/SettingRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Setting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Siswa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Siswa.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            <state relative-caret-position="218">
+              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -29,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/siswa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-301">
+            <state relative-caret-position="105">
               <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
             </state>
           </provider>
@@ -38,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Siswa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="480">
               <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/SiswaDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/SiswaController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/setting.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/siswa.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
       </list>
     </option>
   </component>
@@ -149,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,7 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +285,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556887687005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556888312054" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,17 +342,18 @@
       <workItem from="1556852019338" duration="1713000" />
       <workItem from="1556869715293" duration="532000" />
       <workItem from="1556883432784" duration="2428000" />
+      <workItem from="1556887952431" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69012000" />
+    <option name="totallyTimeSpent" value="69267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26287878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,7 +363,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.33278957" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.33278957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.55791193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,13 +439,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/my.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/service/ProfileService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo2.png" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo.png">
@@ -636,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fluex404/application/entity/Siswa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="480">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -648,15 +652,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/siswa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
+        <state relative-caret-position="105">
           <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        <state relative-caret-position="218">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

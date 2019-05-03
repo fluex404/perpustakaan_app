@@ -63,7 +63,7 @@ jQuery(document).ready(function ($) {
     /* Siswa */
     $('#siswa-submit').click(function(e){
         e.preventDefault();
-        console.log('siswa-submit : it works!');
+        console.log('siswa-submit ');
     });
     function loadSiswa() {
         $('#siswa-msg').hide();
@@ -157,6 +157,8 @@ jQuery(document).ready(function ($) {
 
     $('#profile-submit').click(function (e) {
         e.preventDefault();
+
+        console.log('profile-submit');
 
         var updateProfile = {
             id: $('#profile-id').val(),
