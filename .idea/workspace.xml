@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b2cf9b8-23e5-4fdb-ba83-421e7d2f1331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/ProfileRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/SettingRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/controller/SettingRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Setting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Siswa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fluex404/application/entity/Siswa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +22,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -92,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/cummon_header.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/service/ProfileService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/dao/ProfileDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fluex404/application/controller/APIController.java" />
@@ -120,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/setting.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/siswa.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -167,110 +167,6 @@
               <item name="application" type="b2602c69:ProjectViewProjectNode" />
               <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perpustakaan_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +181,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556888312054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556888585142" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -342,16 +238,15 @@
       <workItem from="1556852019338" duration="1713000" />
       <workItem from="1556869715293" duration="532000" />
       <workItem from="1556883432784" duration="2428000" />
-      <workItem from="1556887952431" duration="255000" />
+      <workItem from="1556887952431" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69267000" />
+    <option name="totallyTimeSpent" value="69609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="737" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26287878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -666,10 +561,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
