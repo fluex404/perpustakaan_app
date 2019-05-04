@@ -2,6 +2,7 @@ package com.fluex404.application.controller;
 
 import com.fluex404.application.dao.ProfileDao;
 import com.fluex404.application.entity.Profile;
+import com.fluex404.application.service.ProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,11 +20,11 @@ import java.util.Map;
 @CrossOrigin
 public class ProfileRestController {
     @Autowired
-    private ProfileDao dao;
+    private ProfileService dao;
 
     @GetMapping
     public ResponseEntity<Profile> getProfile() {
-        return new ResponseEntity<>(dao.findAll().get(0), HttpStatus.OK);
+        return new ResponseEntity<>(dao.getProfile(), HttpStatus.OK);
     }
     @PostMapping
     public ResponseEntity<?> postProfile(@RequestBody @Valid Profile profile, BindingResult result) {
@@ -44,7 +45,7 @@ public class ProfileRestController {
         if(profile.getId().equals("") || profile.getId() == null) {
             //
         } else {
-            pr = dao.save(profile);
+            pr = dao.postProfile(profile);
         }
 
         return new ResponseEntity<>(pr, HttpStatus.CREATED);
