@@ -16,6 +16,7 @@ public class Profile {
     @NotBlank(message = "nama tidak boleh kosong!")
     private String nama;
     @Email(message = "email tidak sah!")
+    @NotBlank(message = "email tidak boleh kosong!")
     private String email;
     private String username;
     private String password;
