@@ -63,7 +63,16 @@ jQuery(document).ready(function ($) {
     /* Siswa */
     $('#siswa-submit').click(function(e){
         e.preventDefault();
-        console.log('siswa-submit ');
+
+        var insertSiswa = {
+            id: $('#siswa-id').val(),
+            nama: $('#siswa-nama input').val(),
+            kelas: $('#siswa-kelas input').val(),
+            nomortelp: $('#siswa-nomortelp input').val(),
+            alamat: $('#siswa-alamat textarea').val()
+        };
+
+        console.log(insertSiswa);
     });
     function loadSiswa() {
         $('#siswa-msg').hide();
@@ -157,8 +166,6 @@ jQuery(document).ready(function ($) {
 
     $('#profile-submit').click(function (e) {
         e.preventDefault();
-
-        console.log('profile-submit');
 
         var updateProfile = {
             id: $('#profile-id').val(),
