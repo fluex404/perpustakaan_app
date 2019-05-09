@@ -65,7 +65,6 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
 
         var insertSiswa = {
-            id: $('#siswa-id').val(),
             nama: $('#siswa-nama input').val(),
             kelas: $('#siswa-kelas input').val(),
             nomortelp: $('#siswa-nomortelp input').val(),
@@ -81,7 +80,7 @@ jQuery(document).ready(function ($) {
             success: function (data) {
                 $('#siswa-msg').show();
             },
-            data: JSON.stringify(updateSetting)
+            data: JSON.stringify(insertSiswa)
         });
     });
     function loadSiswa() {
