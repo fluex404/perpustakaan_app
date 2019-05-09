@@ -43,7 +43,7 @@ public class ProfileRestController {
         }
 
         if(profile.getId().equals("") || profile.getId() == null) {
-            //
+            pr = profile;
         } else {
             pr = dao.postProfile(profile);
         }

@@ -72,7 +72,17 @@ jQuery(document).ready(function ($) {
             alamat: $('#siswa-alamat textarea').val()
         };
 
-        console.log(insertSiswa);
+        // console.log(insertSiswa);
+        $.ajax({
+            url: '/api/siswa',
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#siswa-msg').show();
+            },
+            data: JSON.stringify(updateSetting)
+        });
     });
     function loadSiswa() {
         $('#siswa-msg').hide();
