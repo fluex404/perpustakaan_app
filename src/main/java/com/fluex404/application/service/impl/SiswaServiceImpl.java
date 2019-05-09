@@ -25,15 +25,8 @@ public class SiswaServiceImpl implements SiswaService {
     }
 
     @Override
-    public Siswa getSiswaById(UUID id) {
-        return dao.findById(id).get();
-    }
-
-    @Override
-    public boolean deleteSiswaById(UUID id) {
-
-        dao.deleteById(id);
-
+    public boolean deleteSiswa(Siswa siswa) {
+        dao.delete(siswa);
         return true;
     }
 }
