@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -26,5 +27,9 @@ public class SiswaRestController {
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteById(@PathVariable("id") Siswa siswa){
         return new ResponseEntity<>(service.deleteSiswa(siswa), HttpStatus.OK);
+    }
+    @PostMapping
+    public ResponseEntity<Siswa> saveOrUpdate(@Valid @RequestBody Siswa siswa) {
+        return new ResponseEntity<>(service.saveOrUpdate(siswa), HttpStatus.OK);
     }
 }
